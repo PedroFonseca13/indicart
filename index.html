@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IndicArtes</title>
 
+    <!-- icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css">
+
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
+
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,9 +23,18 @@
   </head>
   <body>
     <header id="header">
-      <nav class="container">
+      <nav class="container show">
         <a class="logo" href="#">Indic<span>Arts</span>.</a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a href="#home" class="title">Home</a></li>
+            <li><a href="#about" class="title">Sobre</a></li>
+            <li><a href="#services" class="title">Trabalhos</a></li>
+            <li><a href="#contact" class="title">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -36,16 +49,29 @@
           </div>
 
           <div class="text">
-            <h1>A casa da sua criatividade</h1>
+            <h2 class="title">A casa da sua criatividade</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              in doloribus amet hic.
+              De canecas a persolizados de festa, nos temos a solução para a sua ideia!
             </p>
             <a class="button" href="#">Conheça mais</a>
           </div>
         </div>
       </section>
+
       <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          Sobre
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          Trabalhos
+        </div>
+      </section>
+      
     </main>
     <footer></footer>
   </body>
